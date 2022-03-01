@@ -63,7 +63,7 @@ window.addEventListener("click",(e)=>{
     let dy = Math.random()*5;
     circleArray.push(new Circle(coordinate.x,coordinate.y,dx,dy,radius,color.c));
     count++;
-    if (circleArray.length>50){
+    if (circleArray.length>200){
         window.alert("공간이 부족합니다. 초기화 됩니다.")
         count=1;
         circleArray.length=0;
